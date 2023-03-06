@@ -1,4 +1,9 @@
 from sympy import *
-from driver import *
+from sympy import *
+import cv2
+import pytesseract
+from tkinter import *
+from tkinter import filedialog
+import driver
 
-start()
+driver.start()
